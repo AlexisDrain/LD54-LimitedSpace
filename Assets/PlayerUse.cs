@@ -22,7 +22,7 @@ public class PlayerUse : MonoBehaviour
         }
 
         RaycastHit hit;
-        Physics.Linecast(transform.position, (transform.position + transform.forward * 5), out hit);
+        Physics.Linecast(transform.position, (transform.position + transform.forward * 5), out hit, (1 << GameManager.worldLayer) + (1 << GameManager.entityLayer));
 
         if (hit.collider != null) {
             // hint text

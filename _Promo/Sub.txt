@@ -23,6 +23,7 @@ todo:
 - Screen roll (screen shake)
 - If fall through ground. return to start pos
 - 30 minute timer
+- morse code screen: need PUSH BUTTON sfx, key compressing back animation. Good password SFX. Bad Password SFX. Good Password hide console
 
 ------------------------------------------------
 [Short Description]
@@ -38,3 +39,7 @@ Fonts:
 
 Rain SFX:
 "D:\Sonnis\2020\Sonniss.com - GDC 2020 - Game Audio Bundle\Articulated Sounds - Moody Rain Loops\WEATHER Rain, Small, Designed, Metal Plate, Asynchronous Drips, LOOP.wav"
+
+Textures
+Metal:
+https://www.texturecan.com/details/611/

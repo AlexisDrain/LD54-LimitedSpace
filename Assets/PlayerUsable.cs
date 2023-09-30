@@ -8,6 +8,9 @@ public class PlayerUsable : MonoBehaviour
 {
     public string itemNameHint = "";
     public UnityEvent onUseTrigger;
+    public UnityEvent onDropTrigger;
+    public bool useGravity = true;
+    public bool disableColliderOnPickup = true;
     public bool pickedUp = false;
     public Vector3 pickupRotation = new Vector3(0f,0f,0f);
 
@@ -20,13 +23,19 @@ public class PlayerUsable : MonoBehaviour
         onUseTrigger.Invoke();
     }
     public void PickUp() {
-        GetComponent<MeshCollider>().enabled = false;
+        onUseTrigger.Invoke();
+        if(disableColliderOnPickup) {
+            GetComponent<MeshCollider>().enabled = false;
+        }
         myRigidbody.useGravity = false;
         pickedUp = true;
     }
     public void Drop() {
+        onDropTrigger.Invoke();
         GetComponent<MeshCollider>().enabled = true;
-        myRigidbody.useGravity = true;
+        if(useGravity) {
+            myRigidbody.useGravity = true;
+        }
         pickedUp = false;
     }
 

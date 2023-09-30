@@ -5,7 +5,11 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour {
 
+    public static LayerMask worldLayer;
+    public static LayerMask entityLayer;
+
     private static Pool pool_LoudAudioSource;
+
     public static PlayerUse playerUse;
     public static Text hintText;
     public static Text mainUseText;
@@ -13,7 +17,8 @@ public class GameManager : MonoBehaviour {
     // Start is called before the first frame update
     void Awake()
     {
-
+        worldLayer = LayerMask.NameToLayer("World");
+        entityLayer = LayerMask.NameToLayer("Entity");
         pool_LoudAudioSource = transform.Find("Pool_LoudAudioSource").GetComponent<Pool>();
 
         playerUse = GameObject.Find("Player/PlayerCameraRoot/MainCamera").GetComponent<PlayerUse>();
