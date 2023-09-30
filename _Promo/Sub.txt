@@ -1,0 +1,40 @@
+Hazards:
+- Battleship using a map and 2 valves. NEWS
+- load missiles
+
+puzzles:
+- toxic gas leak + duct tape
+- Colored numbers -> wires
+- Get Morse code. Use it to unlock launch console
+-... .- -.-. -.-
+
+-...
+.-
+-.-.
+-.-
+
+- NEWS
+
+
+todo:
+- player footsteps
+- Leaking water particles + snd
+- Make hull a pentagon
+- Screen roll (screen shake)
+- If fall through ground. return to start pos
+- 30 minute timer
+
+------------------------------------------------
+[Short Description]
+------------------------------------------------
+[Long Description]
+------------------------------------------------
+
+Credits
+
+Fonts:
+- Roboto-Black - Apache License Version 2.0
+- Tschichold Alt Bold https://www.dafont.com/tschichold.font
+
+Rain SFX:
+"D:\Sonnis\2020\Sonniss.com - GDC 2020 - Game Audio Bundle\Articulated Sounds - Moody Rain Loops\WEATHER Rain, Small, Designed, Metal Plate, Asynchronous Drips, LOOP.wav"
