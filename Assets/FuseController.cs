@@ -15,11 +15,11 @@ public class FuseController : MonoBehaviour
     }
 
     public void OnTriggerEnter(Collider other) {
-        print("trigger enter");
-        print(other.name); 
+
         if(other.CompareTag("Maze")) {
             if(other.name == "MazeEnd") {
                 onMazeSuccess.Invoke();
+                KillFuse();
                 print("Maze Success snd + particles. Turn on computer sound");
             } else {
                 KillFuse();

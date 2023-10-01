@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class PlayerUsable : MonoBehaviour
 {
     public string itemNameHint = "";
+    public string customUseText = "";
     public UnityEvent onUseTrigger;
     public UnityEvent onDropTrigger;
     public bool useGravity = true;

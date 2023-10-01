@@ -8,6 +8,7 @@ TagManager:
   - Movable
   - Use
   - Maze
+  - Missile
   layers:
   - Default
   - TransparentFX
@@ -17,7 +18,7 @@ TagManager:
   - UI
   - Entity
   - World
-  - 
+  - Triggers
   - 
   - 
   - 

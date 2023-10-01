@@ -1,29 +1,27 @@
 Hazards:
-- Battleship using a map and 2 valves. NEWS
-- load missiles
+- Direct worm ship
+- load missiles. launch
 
 puzzles:
+- ✅Get Morse code. Use it to unlock launch console
+- Colored numbers -> wires -> -symbol + wire + light connection keypad -> Camera Look up to ceilingpuzzle
 - toxic gas leak + duct tape
-- Colored numbers -> wires
-- Get Morse code. Use it to unlock launch console
--... .- -.-. -.-
-
--...
-.-
--.-.
--.-
-
 - NEWS
-
+-Pipe dream puzzle
 
 todo:
-- player footsteps
+- Icon
+- NG medals
+- Valve turn sfx. throttle lever sfx
 - Leaking water particles + snd
-- Make hull a pentagon
 - Screen roll (screen shake)
 - If fall through ground. return to start pos
 - 30 minute timer
-- morse code screen: need PUSH BUTTON sfx, key compressing back animation. Good password SFX. Bad Password SFX. Good Password hide console
+- morse code keyboard: need PUSH BUTTON sfx, key compressing back animation. Good password SFX. Bad Password SFX. Good Password hide console
+- Tutorial. Mouse: look. WASD: Move (disapears when highlighting usable object)
+- Main menu + pause menu (check out Express Spork Delivery)
+- Ending text (thanks for playing!)
+- Better ambiance music
 
 ------------------------------------------------
 [Short Description]
@@ -37,9 +35,20 @@ Fonts:
 - Roboto-Black - Apache License Version 2.0
 - Tschichold Alt Bold https://www.dafont.com/tschichold.font
 
+Footstep SFX:
+Sonniss 2018 - Game Audio Bundle \ The Sound Pack Tree - Footstep Loops\1845 - Footsteps - Metal Stairs - Up - 110 fpm - Loop.wav
+
 Rain SFX:
 "D:\Sonnis\2020\Sonniss.com - GDC 2020 - Game Audio Bundle\Articulated Sounds - Moody Rain Loops\WEATHER Rain, Small, Designed, Metal Plate, Asynchronous Drips, LOOP.wav"
+
+Menu SFX:
+Halfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_Trilogy/
 
 Textures
 Metal:
 https://www.texturecan.com/details/611/
+
+Paper:
+Gerd Altmann from Pixabay:
+https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=68833
+https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=68833

@@ -12,6 +12,8 @@ public class PlayerUse : MonoBehaviour
         
     }
 
+
+
     private void Update() {
         if (Input.GetButtonDown("Use")) {
             if (currentPickedUpObject) {
@@ -22,16 +24,22 @@ public class PlayerUse : MonoBehaviour
         }
 
         RaycastHit hit;
-        Physics.Linecast(transform.position, (transform.position + transform.forward * 5), out hit, (1 << GameManager.worldLayer) + (1 << GameManager.entityLayer));
+        Physics.Linecast(transform.position, (transform.position + transform.forward * 3), out hit, (1 << GameManager.worldLayer) + (1 << GameManager.entityLayer));
 
         if (hit.collider != null) {
             // hint text
             if (hit.collider.CompareTag("Movable")) {
+                GameManager.HideTutorial();
                 GameManager.mainUseText.text = "Pickup: [E] [LeftMouse]";
                 GameManager.hintText.text = hit.collider.GetComponent<PlayerUsable>().itemNameHint;
             }
             else if (hit.collider.CompareTag("Use")) {
-                GameManager.mainUseText.text = "Use: [E] [LeftMouse]";
+                GameManager.HideTutorial();
+                if (hit.collider.GetComponent<PlayerUsable>().customUseText == "") {
+                    GameManager.mainUseText.text = "Use: [E] [LeftMouse]";
+                } else {
+                    GameManager.mainUseText.text = hit.collider.GetComponent<PlayerUsable>().customUseText;
+                }
                 GameManager.hintText.text = hit.collider.GetComponent<PlayerUsable>().itemNameHint;
             } else {
                 GameManager.mainUseText.text = "";
