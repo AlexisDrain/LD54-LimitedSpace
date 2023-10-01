@@ -7,6 +7,7 @@ using UnityEngine.Events;
 public class PlayerUsable : MonoBehaviour
 {
     public string itemNameHint = "";
+    [TextArea(2,2)]
     public string customUseText = "";
     public UnityEvent onUseTrigger;
     public UnityEvent onDropTrigger;
@@ -14,6 +15,10 @@ public class PlayerUsable : MonoBehaviour
     public bool disableColliderOnPickup = true;
     public bool pickedUp = false;
     public Vector3 pickupRotation = new Vector3(0f,0f,0f);
+
+    public bool holdable = false;
+    private bool holdingRight = false;
+    private bool holdingLeft = false;
 
     private Rigidbody myRigidbody;
     void Start()
@@ -38,6 +43,25 @@ public class PlayerUsable : MonoBehaviour
             myRigidbody.useGravity = true;
         }
         pickedUp = false;
+    }
+
+    public void Hold(bool direction) {
+
+        if(holdingLeft || holdingRight) {
+            return;
+        }
+
+        if (direction == false) {
+            holdingLeft = true;
+        } else {
+            holdingRight = true;
+        }
+    }
+
+    public void StopHold() {
+
+        holdingLeft = false;
+        holdingRight = false;
     }
 
     // Update is called once per frame

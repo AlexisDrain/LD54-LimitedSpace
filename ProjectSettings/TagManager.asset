@@ -9,6 +9,10 @@ TagManager:
   - Use
   - Maze
   - Missile
+  - Enemy
+  - UseHold
+  - TilemapRed
+  - TilemapYellow
   layers:
   - Default
   - TransparentFX

@@ -6,13 +6,14 @@ puzzles:
 - ✅Get Morse code. Use it to unlock launch console
 - Colored numbers -> wires -> -symbol + wire + light connection keypad -> Camera Look up to ceilingpuzzle
 - toxic gas leak + duct tape
-- NEWS
--Pipe dream puzzle
+- 👎NEWS
+- 👎Pipe dream puzzle
 
 todo:
 - Icon
 - NG medals
 - Valve turn sfx. throttle lever sfx
+- missile launch sfx. missile pickup/drop sfx
 - Leaking water particles + snd
 - Screen roll (screen shake)
 - If fall through ground. return to start pos
@@ -38,6 +39,12 @@ Fonts:
 Footstep SFX:
 Sonniss 2018 - Game Audio Bundle \ The Sound Pack Tree - Footstep Loops\1845 - Footsteps - Metal Stairs - Up - 110 fpm - Loop.wav
 
+Launch Missile SFX:
+Sonniss.com - GDC 2018 - Game Audio Bundle\Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
+
+Death SFX:
+D:\Sonnis\2018\Sonniss.com - GDC 2018 - Game Audio Bundle\Olivier Girardot - Guns & Explosions\Explosion 8.wav
+
 Rain SFX:
 "D:\Sonnis\2020\Sonniss.com - GDC 2020 - Game Audio Bundle\Articulated Sounds - Moody Rain Loops\WEATHER Rain, Small, Designed, Metal Plate, Asynchronous Drips, LOOP.wav"
 
@@ -47,6 +54,8 @@ Halfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_T
 Textures
 Metal:
 https://www.texturecan.com/details/611/
+Marble3 (Glass):
+https://www.texturecan.com/details/94/
 
 Paper:
 Gerd Altmann from Pixabay:

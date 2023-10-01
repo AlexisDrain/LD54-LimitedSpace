@@ -142,7 +142,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   notes: 
-  timeToWait: 3
+  timeToWait: 10
   onTimeEnd:
     m_PersistentCalls:
       m_Calls:
