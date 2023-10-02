@@ -12,12 +12,9 @@ WASD/Arrow keys - Move
 E/Mouse click - Use (For some objects you must HOLD the key)  
 
 Play on Newgrounds or Itch.io  
+https://www.newgrounds.com/portal/view/901389  
+https://alexclay.itch.io/vessel-pressure  
 
-Download the source code:  
-https://github.com/AlexisDrain/LD54-LimitedSpace/  
-
-
---------------------------------------------------
 # Credits:
 
 A game by Alexis Clay
