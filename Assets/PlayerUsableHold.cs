@@ -33,11 +33,11 @@ public class PlayerUsableHold : MonoBehaviour
             if(direction == 1) {
                 direction = -1;
                 onStartUseLeftTrigger.Invoke();
-                itemNameHint = "Turn Valve Right"; // HACK HACK HACK
+                itemNameHint = "Turn Valve Left"; // HACK HACK HACK
             } else {
                 direction = 1;
                 onStartUseRightTrigger.Invoke();
-                itemNameHint = "Turn Valve Left"; // HACK HACK HACK
+                itemNameHint = "Turn Valve Right"; // HACK HACK HACK
             }
         } else {
             onStartUseRightTrigger.Invoke();

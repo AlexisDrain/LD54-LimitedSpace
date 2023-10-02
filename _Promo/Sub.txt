@@ -10,7 +10,6 @@ Hazards / puzzles:
 todo:
 - 👎NG medals
 - 👎Better ambiance music
-
 - 👎30 minute timer
 
 ------------------------------------------------
@@ -22,17 +21,26 @@ Can you handle extreme claustrophobia? FPS Puzzle game.
 [Long Description]
 ------------------------------------------------
 
-Can you handle extreme claustrophobia? FPS Puzzle game.
+Can you handle extreme claustrophobia? FPS Puzzle game.  
 
-Controls:
-P/Esc - Pause
-Mouse - Look
-WASD/Arrow keys - Move
-E/Mouse click - Use
+Walkthrough:  
+https://github.com/AlexisDrain/LD54-LimitedSpace/blob/main/VesselPressure_Walkthrough.txt  
+
+Controls:  
+P/Esc - Pause  
+Mouse - Look  
+WASD/Arrow keys - Move  
+E/Mouse click - Use (For some objects you must HOLD the key)  
+
+Made within 72 hours for Ludum Dare 54 jam. Theme: "Limited Space."
+Play on Newgrounds or Itch.io  
+
+Download the source code:  
+https://github.com/AlexisDrain/LD54-LimitedSpace/  
 
 
 --------------------------------------------------
-Credits:
+[Credits:]
 
 A game by Alexis Clay
 https://alexclay.itch.io/
@@ -41,49 +49,51 @@ Fonts:
 - Roboto-Black - Apache License Version 2.0
 - Tschichold Alt Bold https://www.dafont.com/tschichold.font
 
+Ambiance SFX:
+Sonniss 2016 - Bottle Rocket Fx - The Drone Collection\Drone_Horror_Swirling Wind_01.wav
+Sonniss 2018 - The Sound Pack Tree - Shepard Ambiences\1693 - Wobbling Waves- Endless Falling Loop.wav
+
 Footstep SFX:
-Sonniss 2018 - Game Audio Bundle \ The Sound Pack Tree - Footstep Loops\1845 - Footsteps - Metal Stairs - Up - 110 fpm - Loop.wav
+- Sonniss 2018 - The Sound Pack Tree - Footstep Loops\1845 - Footsteps - Metal Stairs - Up - 110 fpm - Loop.wav
 
 Launch Missile SFX:
-Sonniss 2018 - Game Audio Bundle\Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
-Sonniss 2018 - Game Audio Bundle\SoundMorph - STEAMPUNK WEAPONS\Steampunk Weapons - Firestorm Flamer - set_1.wav
+- Sonniss 2018 - Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
+- Sonniss 2018 - SoundMorph - STEAMPUNK WEAPONS\Steampunk Weapons - Firestorm Flamer - set_1.wav
 
 Death SFX:
-Sonniss 2018 - Game Audio Bundle\Olivier Girardot - Guns & Explosions\Explosion 8.wav
+- Sonniss 2018 - Olivier Girardot - Guns & Explosions\Explosion 8.wav
 
 Electricity SFX:
-Sonnis 2018 - Game Audio Bundle\Hear and Now Sound - High Voltage Electricity - The Essential Collection\Water and Electricity 7.wav"
-"D:\Sonnis\2020\Sonniss.com - GDC 2020 - Game Audio Bundle\David Dumais Audio - Magic Sound FX Pack 1\Magic_Bonus_ElectricityLoop33.wav"
+- Sonniss 2018 - Hear and Now Sound - High Voltage Electricity - The Essential Collection\Water and Electricity 7.wav
+- Sonniss 2020 - Game Audio Bundle\David Dumais Audio - Magic Sound FX Pack 1\Magic_Bonus_ElectricityLoop33.wav
 
 Door open SFX:
-Sonniss GDC 2015 - Game Audio Bundle TheLibrarybyEmptySea - Gateway Part1\patio_door_wood_glass_INT_hinge_creak_open_close_08.wav
+- Sonniss 2015 - TheLibrarybyEmptySea - Gateway Part1\patio_door_wood_glass_INT_hinge_creak_open_close_08.wav
 
 Pickup Fuse/Magnet SFX:
-"D:\Sonnis\2018\Sonniss.com - GDC 2018 - Game Audio Bundle\Gamemaster Audio - Punch and Combat Sounds\foley_object_grab_pickup_04.wav"
+- Sonnis 2018 - Gamemaster Audio - Punch and Combat Sounds\foley_object_grab_pickup_04.wav"
 
 Pickup Missile SFX:
-Sonnis 2016 - Game Audio Bundle\Bottle Rocket Fx - Cyborg Collection\Robot_Footstep_Metallic_Large_03.wav
+- Sonnis 2016 - Bottle Rocket Fx - Cyborg Collection\Robot_Footstep_Metallic_Large_03.wav
 
 Menu SFX:
-Halfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_Trilogy/
+- Halfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_Trilogy/
 
-Valve turn:
+Valve turn SFX:
 https://freesound.org/people/FreqMan/sounds/31380/
 
 Engine SFX (Throttle):
-"D:\Sonnis\2017\Sonniss.com - GDC 2017 - Game Audio Bundle\Eiravaein Sound - BigBlock\BigBlock,Corvette,1967,engine,partialthrottling,hold,release,cut,6ftheight,ORTF.wav"
+- Sonniss 2017 - Eiravaein Sound - BigBlock\BigBlock,Corvette,1967,engine,partialthrottling,hold,release,cut,6ftheight,ORTF.wav"
 
 Console keyboard SFX:
-"D:\Sonnis\2016\Sonniss.com - GDC 2016- Game Audio Bundle\3maze -  Buttons and Switches\light_switch_019.wav"
-BFXR
+- Sonniss 2016 - 3maze -  Buttons and Switches\light_switch_019.wav
+
+Console success & failure:
+- BFXR
 
 Textures
-Metal:
-https://www.texturecan.com/details/611/
-Marble3 (Glass):
-https://www.texturecan.com/details/94/
+- Metal: https://www.texturecan.com/details/611/
+- Marble3 (Glass): https://www.texturecan.com/details/94/
 
-Paper:
-Gerd Altmann from Pixabay:
-https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=68833
-https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=68833
+Morse code paper: Gerd Altmann from Pixabay:
+https://pixabay.com/illustrations/paper-stationery-parchment-antique-68833/

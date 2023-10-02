@@ -22226,7 +22226,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4c1cbd0a8cb12ac47a14a1e3c48d729f, type: 3}
-    m_FontSize: 24
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -22237,10 +22237,44 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Credits:\r\n\r\nA game by Alexis Clay\r\nhttps://alexclay.itch.io/\r\n\r\nFonts:\r\n-
-    Roboto-Black - Apache License Version 2.0\r\n- Tschichold Alt Bold https://www.dafont.com/tschichold.font\r\n\r\nFootstep
-    SFX:\r\nSonniss 2018 - Game Audio Bundle \\ The Sound Pack Tree - Footstep Loops\\1845
-    - Footsteps - Metal Stairs - Up - 110 fpm - Loop.wav\r"
+  m_Text: 'A game by Alexis Clay
+
+    https://alexclay.itch.io/
+
+    
+
+    Fonts:
+
+    -
+    Roboto-Black - Apache License Version 2.0
+
+    - Tschichold Alt Bold https://www.dafont.com/tschichold.font
+
+    
+
+    Footstep
+    SFX:
+
+    - Sonniss 2018 - The Sound Pack Tree - Footstep Loops\1845 - Footsteps
+    - Metal Stairs - Up - 110 fpm - Loop.wav
+
+    
+
+    Launch Missile SFX:
+
+    -
+    Sonniss 2018 - Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
+
+    -
+    Sonniss 2018 - SoundMorph - STEAMPUNK WEAPONS\Steampunk Weapons - Firestorm Flamer
+    - set_1.wav
+
+    
+
+    Death SFX:
+
+    - Sonniss 2018 - Olivier Girardot -
+    Guns & Explosions\Explosion 8.wav'
 --- !u!222 &258457081
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26936,10 +26970,44 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: "Credits:\r\n\r\nA game by Alexis Clay\r\nhttps://alexclay.itch.io/\r\n\r\nFonts:\r\n-
-    Roboto-Black - Apache License Version 2.0\r\n- Tschichold Alt Bold https://www.dafont.com/tschichold.font\r\n\r\nFootstep
-    SFX:\r\nSonniss 2018 - Game Audio Bundle \\ The Sound Pack Tree - Footstep Loops\\1845
-    - Footsteps - Metal Stairs - Up - 110 fpm - Loop.wav\r"
+  m_Text: 'A game by Alexis Clay
+
+    https://alexclay.itch.io/
+
+    
+
+    Fonts:
+
+    -
+    Roboto-Black - Apache License Version 2.0
+
+    - Tschichold Alt Bold https://www.dafont.com/tschichold.font
+
+    
+
+    Footstep
+    SFX:
+
+    - Sonniss 2018 - The Sound Pack Tree - Footstep Loops\1845 - Footsteps
+    - Metal Stairs - Up - 110 fpm - Loop.wav
+
+    
+
+    Launch Missile SFX:
+
+    -
+    Sonniss 2018 - Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
+
+    -
+    Sonniss 2018 - SoundMorph - STEAMPUNK WEAPONS\Steampunk Weapons - Firestorm Flamer
+    - set_1.wav
+
+    
+
+    Death SFX:
+
+    - Sonniss 2018 - Olivier Girardot -
+    Guns & Explosions\Explosion 8.wav'
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
@@ -38770,7 +38838,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4c1cbd0a8cb12ac47a14a1e3c48d729f, type: 3}
-    m_FontSize: 24
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -38781,9 +38849,46 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "\nMenu SFX:\r\nHalfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_Trilogy/\r\n\r\nTextures\r\nMetal:\r\nhttps://www.texturecan.com/details/611/\r\nMarble3
-    (Glass):\r\nhttps://www.texturecan.com/details/94/\r\n\r\nPaper:\r\nGerd Altmann
-    from Pixabay:\r\nhttps://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=68833\r"
+  m_Text: 'Valve turn SFX:
+
+    https://freesound.org/people/FreqMan/sounds/31380/
+
+    
+
+    Engine
+    SFX (Throttle):
+
+    - Sonniss 2017 - Eiravaein Sound - BigBlock\BigBlock,Corvette,1967,engine,partialthrottling,hold,release,cut,6ftheight,ORTF.wav"
+
+    
+
+    Console
+    keyboard SFX:
+
+    - Sonniss 2016 - 3maze -  Buttons and Switches\light_switch_019.wav
+
+    
+
+    Console
+    success & failure:
+
+    - BFXR
+
+    
+
+    Textures
+
+    - Metal: https://www.texturecan.com/details/611/
+
+    -
+    Marble3 (Glass): https://www.texturecan.com/details/94/
+
+    
+
+    Morse code
+    paper: Gerd Altmann from Pixabay:
+
+    https://pixabay.com/illustrations/paper-stationery-parchment-antique-68833/'
 --- !u!222 &747169302
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -54095,12 +54200,41 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: "Launch Missile SFX:\r\nSonniss.com - GDC 2018 - Game Audio Bundle\\Soundrangers
-    - Hydrology Underwater\\explosion_underwater_blast_04.wav\r\n\r\nDeath SFX:\r\nD:\\Sonnis\\2018\\Sonniss.com
-    - GDC 2018 - Game Audio Bundle\\Olivier Girardot - Guns & Explosions\\Explosion
-    8.wav\r\n\r\nRain SFX:\r\n\"D:\\Sonnis\\2020\\Sonniss.com - GDC 2020 - Game Audio
-    Bundle\\Articulated Sounds - Moody Rain Loops\\WEATHER Rain, Small, Designed,
-    Metal Plate, Asynchronous Drips, LOOP.wav\"\r\n\r"
+  m_Text: 'Electricity SFX:
+
+    - Sonniss 2018 - Hear and Now Sound - High Voltage
+    Electricity - The Essential Collection\Water and Electricity 7.wav
+
+    - Sonniss
+    2020 - Game Audio Bundle\David Dumais Audio - Magic Sound FX Pack 1\Magic_Bonus_ElectricityLoop33.wav
+
+    
+
+    Door
+    open SFX:
+
+    - Sonniss 2015 - TheLibrarybyEmptySea - Gateway Part1\patio_door_wood_glass_INT_hinge_creak_open_close_08.wav
+
+    
+
+    Pickup
+    Fuse/Magnet SFX:
+
+    - Sonnis 2018 - Gamemaster Audio - Punch and Combat Sounds\foley_object_grab_pickup_04.wav"
+
+    
+
+    Pickup
+    Missile SFX:
+
+    - Sonnis 2016 - Bottle Rocket Fx - Cyborg Collection\Robot_Footstep_Metallic_Large_03.wav
+
+    
+
+    Menu
+    SFX:
+
+    - Halfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_Trilogy/'
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
@@ -62621,7 +62755,7 @@ AudioSource:
   m_GameObject: {fileID: 1426607237}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -2133023030816354152, guid: 74c75a232f652ec48bb81dc4a7654b47, type: 2}
   m_audioClip: {fileID: 8300000, guid: 79e7a00aaa9a5a64e89d61339de2bf0d, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
@@ -66415,7 +66549,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4c1cbd0a8cb12ac47a14a1e3c48d729f, type: 3}
-    m_FontSize: 24
+    m_FontSize: 20
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 1
@@ -66426,12 +66560,41 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Launch Missile SFX:\r\nSonniss.com - GDC 2018 - Game Audio Bundle\\Soundrangers
-    - Hydrology Underwater\\explosion_underwater_blast_04.wav\r\n\r\nDeath SFX:\r\nD:\\Sonnis\\2018\\Sonniss.com
-    - GDC 2018 - Game Audio Bundle\\Olivier Girardot - Guns & Explosions\\Explosion
-    8.wav\r\n\r\nRain SFX:\r\n\"D:\\Sonnis\\2020\\Sonniss.com - GDC 2020 - Game Audio
-    Bundle\\Articulated Sounds - Moody Rain Loops\\WEATHER Rain, Small, Designed,
-    Metal Plate, Asynchronous Drips, LOOP.wav\"\r\n\r"
+  m_Text: 'Electricity SFX:
+
+    - Sonniss 2018 - Hear and Now Sound - High Voltage
+    Electricity - The Essential Collection\Water and Electricity 7.wav
+
+    - Sonniss
+    2020 - Game Audio Bundle\David Dumais Audio - Magic Sound FX Pack 1\Magic_Bonus_ElectricityLoop33.wav
+
+    
+
+    Door
+    open SFX:
+
+    - Sonniss 2015 - TheLibrarybyEmptySea - Gateway Part1\patio_door_wood_glass_INT_hinge_creak_open_close_08.wav
+
+    
+
+    Pickup
+    Fuse/Magnet SFX:
+
+    - Sonnis 2018 - Gamemaster Audio - Punch and Combat Sounds\foley_object_grab_pickup_04.wav"
+
+    
+
+    Pickup
+    Missile SFX:
+
+    - Sonnis 2016 - Bottle Rocket Fx - Cyborg Collection\Robot_Footstep_Metallic_Large_03.wav
+
+    
+
+    Menu
+    SFX:
+
+    - Halfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_Trilogy/'
 --- !u!222 &1515957162
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -85523,6 +85686,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -4, y: 26, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -3, y: 26, z: 0}
     second:
       serializedVersion: 2
@@ -85873,6 +86046,16 @@ Tilemap:
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741825
+  - first: {x: -14, y: 30, z: 0}
+    second:
+      serializedVersion: 2
+      m_TileIndex: 0
+      m_TileSpriteIndex: 0
+      m_TileMatrixIndex: 0
+      m_TileColorIndex: 0
+      m_TileObjectToInstantiateIndex: 65535
+      dummyAlignment: 0
+      m_AllTileFlags: 1073741825
   - first: {x: -13, y: 30, z: 0}
     second:
       serializedVersion: 2
@@ -86115,7 +86298,7 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 156
+  - m_RefCount: 158
     m_Data: {fileID: 11400000, guid: 5122947805c62d3428b74195f47f9d35, type: 2}
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: b305587c641b03b4a8df6c71c6aa7fe0, type: 2}
@@ -86124,7 +86307,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {fileID: 0}
   m_TileSpriteArray:
-  - m_RefCount: 156
+  - m_RefCount: 158
     m_Data: {fileID: -93102414, guid: a580ae68f5ed908408e222127aae7930, type: 3}
   - m_RefCount: 0
     m_Data: {fileID: 0}
@@ -86133,7 +86316,7 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 57955051, guid: a580ae68f5ed908408e222127aae7930, type: 3}
   m_TileMatrixArray:
-  - m_RefCount: 157
+  - m_RefCount: 159
     m_Data:
       e00: 1
       e01: 0
@@ -86152,7 +86335,7 @@ Tilemap:
       e32: 0
       e33: 1
   m_TileColorArray:
-  - m_RefCount: 157
+  - m_RefCount: 159
     m_Data: {r: 1, g: 1, b: 1, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
@@ -88359,35 +88542,46 @@ MonoBehaviour:
   m_CaretColor: {r: 0.19607843, g: 0.19607843, b: 0.19607843, a: 1}
   m_CustomCaretColor: 0
   m_SelectionColor: {r: 0.65882355, g: 0.80784315, b: 1, a: 0.7529412}
-  m_Text: '
+  m_Text: 'Valve turn SFX:
 
-    Menu SFX:
+    https://freesound.org/people/FreqMan/sounds/31380/
 
-    Halfquake 1 by Muddasheep: https://store.steampowered.com/app/644320/Halfquake_Trilogy/
+    
+
+    Engine
+    SFX (Throttle):
+
+    - Sonniss 2017 - Eiravaein Sound - BigBlock\BigBlock,Corvette,1967,engine,partialthrottling,hold,release,cut,6ftheight,ORTF.wav"
+
+    
+
+    Console
+    keyboard SFX:
+
+    - Sonniss 2016 - 3maze -  Buttons and Switches\light_switch_019.wav
+
+    
+
+    Console
+    success & failure:
+
+    - BFXR
 
     
 
     Textures
 
-    Metal:
+    - Metal: https://www.texturecan.com/details/611/
 
-    https://www.texturecan.com/details/611/
-
-    Marble3
-    (Glass):
-
-    https://www.texturecan.com/details/94/
+    -
+    Marble3 (Glass): https://www.texturecan.com/details/94/
 
     
 
-    Paper:
+    Morse code
+    paper: Gerd Altmann from Pixabay:
 
-    Gerd
-    Altmann from Pixabay:
-
-    https://pixabay.com/users/geralt-9301/?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=68833
-
-    https://pixabay.com//?utm_source=link-attribution&utm_medium=referral&utm_campaign=image&utm_content=68833'
+    https://pixabay.com/illustrations/paper-stationery-parchment-antique-68833/'
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
