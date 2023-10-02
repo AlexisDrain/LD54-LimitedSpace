@@ -33,7 +33,10 @@ Can you handle extreme claustrophobia? FPS Puzzle game.
 [Long Description]
 ------------------------------------------------
 
-Credits
+Credits:
+
+A game by Alexis Clay
+https://alexclay.itch.io/
 
 Fonts:
 - Roboto-Black - Apache License Version 2.0
