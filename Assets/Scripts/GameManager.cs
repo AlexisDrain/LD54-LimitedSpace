@@ -14,11 +14,16 @@ public class GameManager : MonoBehaviour {
     public static LayerMask entityLayer;
 
     private static Pool pool_LoudAudioSource;
+    public static Pool pool_MapMissiles;
+    
 
     public static Transform playerTrans;
     public static PlayerUse playerUse;
+    public static PlayerShakeScreen playerShakescreen;
+    
     public static GameObject canvasTutorial;
     public static GameObject canvasDeath;
+    public static GameObject canvasWin;
     public static GameObject canvasMainMenu;
     
     public static Text hintText;
@@ -33,13 +38,17 @@ public class GameManager : MonoBehaviour {
         worldLayer = LayerMask.NameToLayer("World");
         entityLayer = LayerMask.NameToLayer("Entity");
         pool_LoudAudioSource = transform.Find("Pool_LoudAudioSource").GetComponent<Pool>();
+        pool_MapMissiles = transform.Find("Pool_MapMissiles").GetComponent<Pool>();
 
         playerTrans = GameObject.Find("Player").transform;
         playerUse = GameObject.Find("Player/PlayerCameraRoot/MainCamera").GetComponent<PlayerUse>();
+        playerShakescreen = GameObject.Find("Player/PlayerCameraRoot/MainCamera").GetComponent<PlayerShakeScreen>();
         canvasTutorial = GameObject.Find("Canvas/Tutorial");
         canvasTutorial.SetActive(false);
         canvasDeath = GameObject.Find("Canvas/Death");
         canvasDeath.SetActive(false);
+        canvasWin = GameObject.Find("Canvas/Win");
+        canvasWin.SetActive(false);
         canvasMainMenu = GameObject.Find("Canvas/MainMenu");
         hintText = GameObject.Find("Canvas/HintText").GetComponent<Text>();
         mainUseText = GameObject.Find("Canvas/MainUseText").GetComponent<Text>();
@@ -67,6 +76,12 @@ public class GameManager : MonoBehaviour {
         Cursor.lockState = CursorLockMode.None;
         playerTrans.GetComponent<StarterAssetsInputs>().cursorLocked = false;
         playerTrans.GetComponent<StarterAssetsInputs>().cursorInputForLook = false;
+        Time.timeScale = 0f;
+    }
+    public static void WinGame() {
+        canvasWin.SetActive(true);
+        canvasWin.GetComponent<Animator>().SetTrigger("Win");
+        Cursor.lockState = CursorLockMode.None;
         Time.timeScale = 0f;
     }
     public void ExplodeVessel() {

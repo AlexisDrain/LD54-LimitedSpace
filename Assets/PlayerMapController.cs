@@ -29,5 +29,7 @@ public class PlayerMapController : MonoBehaviour
         if (Input.GetKey(KeyCode.I)) {
             myRigidbody2D.AddForce(transform.up * forwardSpeed, ForceMode2D.Force);
         }
+
+
     }
 }

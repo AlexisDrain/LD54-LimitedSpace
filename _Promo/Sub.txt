@@ -26,6 +26,9 @@ todo:
 
 ------------------------------------------------
 [Short Description]
+
+Can you handle extreme claustrophobia? FPS Puzzle game.
+
 ------------------------------------------------
 [Long Description]
 ------------------------------------------------
