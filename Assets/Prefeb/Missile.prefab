@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5407408683746777599}
   - component: {fileID: 2183211048566300711}
   - component: {fileID: 6704749079174366920}
+  - component: {fileID: 3630648671735339370}
   m_Layer: 6
   m_Name: Missile
   m_TagString: Movable
@@ -767,6 +768,19 @@ MonoBehaviour:
   disableColliderOnPickup: 1
   pickedUp: 0
   pickupRotation: {x: 0, y: 180, z: 90}
+--- !u!114 &3630648671735339370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3552422006650412031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 34385753238f0b04db51535d73c32064, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startPosition: {x: 0, y: 0, z: 0}
 --- !u!1 &8236331296158284822
 GameObject:
   m_ObjectHideFlags: 0

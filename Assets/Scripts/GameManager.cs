@@ -21,6 +21,8 @@ public class GameManager : MonoBehaviour {
     public static PlayerUse playerUse;
     public static PlayerShakeScreen playerShakescreen;
     public static PlayerMapController playerMapController;
+    public static TilemapGuesserController playerTileMapGuesser;
+    
     public static GameObject console;
 
 
@@ -47,6 +49,8 @@ public class GameManager : MonoBehaviour {
         playerUse = GameObject.Find("Player/PlayerCameraRoot/MainCamera").GetComponent<PlayerUse>();
         playerShakescreen = GameObject.Find("Player/PlayerCameraRoot/MainCamera").GetComponent<PlayerShakeScreen>();
         playerMapController = GameObject.Find("Entities/Console/PlayerMap").GetComponent<PlayerMapController>();
+        playerTileMapGuesser = GameObject.Find("Entities/Console/PlayerMap/TileGuesser").GetComponent<TilemapGuesserController>();
+        
         console = GameObject.Find("Entities/Console");
         console.SetActive(false);
 
@@ -89,11 +93,16 @@ public class GameManager : MonoBehaviour {
         canvasWin.SetActive(true);
         canvasWin.GetComponent<Animator>().SetTrigger("Win");
         Cursor.lockState = CursorLockMode.None;
+        playerTrans.GetComponent<StarterAssetsInputs>().cursorLocked = false;
+        playerTrans.GetComponent<StarterAssetsInputs>().cursorInputForLook = false;
         Time.timeScale = 0f;
     }
     public void ExplodeVessel() {
         canvasDeath.SetActive(true);
         canvasDeath.GetComponent<Animator>().SetTrigger("Die");
+        Cursor.lockState = CursorLockMode.None;
+        playerTrans.GetComponent<StarterAssetsInputs>().cursorLocked = false;
+        playerTrans.GetComponent<StarterAssetsInputs>().cursorInputForLook = false;
         Time.timeScale = 0f;
         StartCoroutine(ExplodeRestartGameCountDown());
     }

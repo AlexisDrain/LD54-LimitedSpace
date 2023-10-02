@@ -6,7 +6,8 @@ public class PlayerUse : MonoBehaviour
 {
     public Transform grabLocation;
 
-    private Transform currentPickedUpObject;
+    [Header("Read only")]
+    public Transform currentPickedUpObject;
     void Start()
     {
         
@@ -43,7 +44,6 @@ public class PlayerUse : MonoBehaviour
                 GameManager.hintText.text = hit.collider.GetComponent<PlayerUsable>().itemNameHint;
             } else if (hit.collider.CompareTag("UseHold")) {
                 GameManager.HideTutorial();
-                print("looking at usehold");
                 if (hit.collider.GetComponent<PlayerUsableHold>().customUseText == "") {
                     GameManager.mainUseText.text = "Use: [E] [LeftMouse]";
                 } else {

@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class PuzzleMorseInput : MonoBehaviour
 {
     public UnityEvent onSuccess;
+    public UnityEvent onFail;
     public Text letter1;
     public Text letter2;
     public Text letter3;
@@ -35,13 +36,12 @@ public class PuzzleMorseInput : MonoBehaviour
     public IEnumerator RemoveText() {
         if (puzzleText == "BACK") {
             yield return new WaitForSeconds(1);
-            print("play success sound effect");
             onSuccess.Invoke();
             // scroll down screen using Animator
         } else {
             // play Bad SFX
             yield return new WaitForSeconds(1);
-            print("bad result");
+            onFail.Invoke();
             currentLetters = 0;
             puzzleText = "";
             letter1.text = "";
