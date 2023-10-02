@@ -13662,7 +13662,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 517cb3c91c0f5de489ff9b277ba3c778, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pauseAndUnpause: 1
+  pauseAndUnpause: 0
   onTurnedOn:
     m_PersistentCalls:
       m_Calls:
@@ -22241,7 +22241,7 @@ MonoBehaviour:
 
     https://alexclay.itch.io/
 
-    
+
 
     Fonts:
 
@@ -22250,7 +22250,7 @@ MonoBehaviour:
 
     - Tschichold Alt Bold https://www.dafont.com/tschichold.font
 
-    
+
 
     Footstep
     SFX:
@@ -22258,23 +22258,23 @@ MonoBehaviour:
     - Sonniss 2018 - The Sound Pack Tree - Footstep Loops\1845 - Footsteps
     - Metal Stairs - Up - 110 fpm - Loop.wav
 
-    
+
 
     Launch Missile SFX:
 
-    -
-    Sonniss 2018 - Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
+    - Sonniss
+    2018 - Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
 
     -
     Sonniss 2018 - SoundMorph - STEAMPUNK WEAPONS\Steampunk Weapons - Firestorm Flamer
     - set_1.wav
 
-    
+
 
     Death SFX:
 
-    - Sonniss 2018 - Olivier Girardot -
-    Guns & Explosions\Explosion 8.wav'
+    - Sonniss 2018 - Olivier Girardot - Guns &
+    Explosions\Explosion 8.wav'
 --- !u!222 &258457081
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -26974,7 +26974,7 @@ MonoBehaviour:
 
     https://alexclay.itch.io/
 
-    
+
 
     Fonts:
 
@@ -26983,7 +26983,7 @@ MonoBehaviour:
 
     - Tschichold Alt Bold https://www.dafont.com/tschichold.font
 
-    
+
 
     Footstep
     SFX:
@@ -26991,23 +26991,23 @@ MonoBehaviour:
     - Sonniss 2018 - The Sound Pack Tree - Footstep Loops\1845 - Footsteps
     - Metal Stairs - Up - 110 fpm - Loop.wav
 
-    
+
 
     Launch Missile SFX:
 
-    -
-    Sonniss 2018 - Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
+    - Sonniss
+    2018 - Soundrangers - Hydrology Underwater\explosion_underwater_blast_04.wav
 
     -
     Sonniss 2018 - SoundMorph - STEAMPUNK WEAPONS\Steampunk Weapons - Firestorm Flamer
     - set_1.wav
 
-    
+
 
     Death SFX:
 
-    - Sonniss 2018 - Olivier Girardot -
-    Guns & Explosions\Explosion 8.wav'
+    - Sonniss 2018 - Olivier Girardot - Guns &
+    Explosions\Explosion 8.wav'
   m_CaretBlinkRate: 0.85
   m_CaretWidth: 1
   m_ReadOnly: 1
@@ -38853,28 +38853,28 @@ MonoBehaviour:
 
     https://freesound.org/people/FreqMan/sounds/31380/
 
-    
+
 
     Engine
     SFX (Throttle):
 
     - Sonniss 2017 - Eiravaein Sound - BigBlock\BigBlock,Corvette,1967,engine,partialthrottling,hold,release,cut,6ftheight,ORTF.wav"
 
-    
+
 
     Console
     keyboard SFX:
 
     - Sonniss 2016 - 3maze -  Buttons and Switches\light_switch_019.wav
 
-    
+
 
     Console
     success & failure:
 
     - BFXR
 
-    
+
 
     Textures
 
@@ -38883,10 +38883,10 @@ MonoBehaviour:
     -
     Marble3 (Glass): https://www.texturecan.com/details/94/
 
-    
 
-    Morse code
-    paper: Gerd Altmann from Pixabay:
+
+    Morse code paper:
+    Gerd Altmann from Pixabay:
 
     https://pixabay.com/illustrations/paper-stationery-parchment-antique-68833/'
 --- !u!222 &747169302
@@ -54208,28 +54208,28 @@ MonoBehaviour:
     - Sonniss
     2020 - Game Audio Bundle\David Dumais Audio - Magic Sound FX Pack 1\Magic_Bonus_ElectricityLoop33.wav
 
-    
+
 
     Door
     open SFX:
 
     - Sonniss 2015 - TheLibrarybyEmptySea - Gateway Part1\patio_door_wood_glass_INT_hinge_creak_open_close_08.wav
 
-    
+
 
     Pickup
     Fuse/Magnet SFX:
 
     - Sonnis 2018 - Gamemaster Audio - Punch and Combat Sounds\foley_object_grab_pickup_04.wav"
 
-    
+
 
     Pickup
     Missile SFX:
 
     - Sonnis 2016 - Bottle Rocket Fx - Cyborg Collection\Robot_Footstep_Metallic_Large_03.wav
 
-    
+
 
     Menu
     SFX:
@@ -66568,28 +66568,28 @@ MonoBehaviour:
     - Sonniss
     2020 - Game Audio Bundle\David Dumais Audio - Magic Sound FX Pack 1\Magic_Bonus_ElectricityLoop33.wav
 
-    
+
 
     Door
     open SFX:
 
     - Sonniss 2015 - TheLibrarybyEmptySea - Gateway Part1\patio_door_wood_glass_INT_hinge_creak_open_close_08.wav
 
-    
+
 
     Pickup
     Fuse/Magnet SFX:
 
     - Sonnis 2018 - Gamemaster Audio - Punch and Combat Sounds\foley_object_grab_pickup_04.wav"
 
-    
+
 
     Pickup
     Missile SFX:
 
     - Sonnis 2016 - Bottle Rocket Fx - Cyborg Collection\Robot_Footstep_Metallic_Large_03.wav
 
-    
+
 
     Menu
     SFX:
@@ -88546,28 +88546,28 @@ MonoBehaviour:
 
     https://freesound.org/people/FreqMan/sounds/31380/
 
-    
+
 
     Engine
     SFX (Throttle):
 
     - Sonniss 2017 - Eiravaein Sound - BigBlock\BigBlock,Corvette,1967,engine,partialthrottling,hold,release,cut,6ftheight,ORTF.wav"
 
-    
+
 
     Console
     keyboard SFX:
 
     - Sonniss 2016 - 3maze -  Buttons and Switches\light_switch_019.wav
 
-    
+
 
     Console
     success & failure:
 
     - BFXR
 
-    
+
 
     Textures
 
@@ -88576,10 +88576,10 @@ MonoBehaviour:
     -
     Marble3 (Glass): https://www.texturecan.com/details/94/
 
-    
 
-    Morse code
-    paper: Gerd Altmann from Pixabay:
+
+    Morse code paper:
+    Gerd Altmann from Pixabay:
 
     https://pixabay.com/illustrations/paper-stationery-parchment-antique-68833/'
   m_CaretBlinkRate: 0.85
