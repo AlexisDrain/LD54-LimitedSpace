@@ -41,6 +41,15 @@ public class PlayerUse : MonoBehaviour
                     GameManager.mainUseText.text = hit.collider.GetComponent<PlayerUsable>().customUseText;
                 }
                 GameManager.hintText.text = hit.collider.GetComponent<PlayerUsable>().itemNameHint;
+            } else if (hit.collider.CompareTag("UseHold")) {
+                GameManager.HideTutorial();
+                print("looking at usehold");
+                if (hit.collider.GetComponent<PlayerUsableHold>().customUseText == "") {
+                    GameManager.mainUseText.text = "Use: [E] [LeftMouse]";
+                } else {
+                    GameManager.mainUseText.text = hit.collider.GetComponent<PlayerUsableHold>().customUseText;
+                }
+                GameManager.hintText.text = hit.collider.GetComponent<PlayerUsableHold>().itemNameHint;
             } else {
                 GameManager.mainUseText.text = "";
                 GameManager.hintText.text = "";
@@ -53,8 +62,10 @@ public class PlayerUse : MonoBehaviour
                 currentPickedUpObject.GetComponent<PlayerUsable>().PickUp();
             } else if (hit.collider.CompareTag("Use") && Input.GetButtonDown("Use")) {
                 hit.collider.GetComponent<PlayerUsable>().TriggerFunction();
+            } else if (hit.collider.CompareTag("UseHold") && Input.GetButtonDown("Use")) {
+                hit.collider.GetComponent<PlayerUsableHold>().StartHold();
             }
-            
+
 
         }
         else { // nothing hit

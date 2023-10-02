@@ -11,7 +11,7 @@ public class EntitySpin : MonoBehaviour
 
     public Vector3 rotationAngle = new Vector3(0f, 1f, 0f);
     private Rigidbody myRigidbody;
-
+    private float speed;
     // Start is called before the first frame update
     void Start()
     {
@@ -34,6 +34,9 @@ public class EntitySpin : MonoBehaviour
             Quaternion deltaRotation = Quaternion.Euler(rotationAngle * speed * Time.fixedDeltaTime);
             myRigidbody.MoveRotation(myRigidbody.rotation * deltaRotation);
         }
+    }
+    public void SetRotationSpeed(float newSpeed) {
+        spinSpeedRange = new Vector2(newSpeed, newSpeed);
     }
     public void ResetEntity() {
         //transform.rotation = Quaternion.Euler(initialRotation);

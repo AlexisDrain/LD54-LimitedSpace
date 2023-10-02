@@ -14,7 +14,8 @@ public class TilemapGuesserController : MonoBehaviour {
     }
 
     private void Update() {
-        if (Input.GetKeyDown(KeyCode.O)) {
+        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.O)) {
+            print("Player override shoot missle");
             ShootMissile();
         }
 
@@ -23,7 +24,7 @@ public class TilemapGuesserController : MonoBehaviour {
         // print(allTilemap.GetTile(currentPos));
     }
     private IEnumerator StopShake() {
-        yield return new WaitForSeconds(5f);
+        yield return new WaitForSeconds(15f);
         GameManager.playerShakescreen.shake = false;
 
     }
@@ -35,12 +36,11 @@ public class TilemapGuesserController : MonoBehaviour {
             GameManager.gameManagerObject.GetComponent<GameManager>().ExplodeVessel();
         } else if (col.CompareTag("TilemapYellow")) {
             GameManager.playerShakescreen.shake = true;
-            StartCoroutine(StopShake());
+            StopCoroutine("StopShake");
+            StartCoroutine("StopShake");
         } else if (col.CompareTag("TilemapNothing")) {
-            print("stop shake");
             GameManager.playerShakescreen.shake = false;
         } else if (col.CompareTag("TilemapTarget")) {
-            print("target");
             GameManager.playerShakescreen.shake = false;
         } else {
 

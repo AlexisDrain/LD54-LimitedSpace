@@ -19,9 +19,10 @@ public class PlayerShakeScreen : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         if(shake == false) {
+            transform.rotation = Quaternion.Euler(transform.eulerAngles.x, transform.eulerAngles.y, 0f);
             return;
         }
         if(Mathf.Abs(transform.rotation.z) - Mathf.Abs(destinationShakeAngle) < 0.1f) {

@@ -20,7 +20,10 @@ public class GameManager : MonoBehaviour {
     public static Transform playerTrans;
     public static PlayerUse playerUse;
     public static PlayerShakeScreen playerShakescreen;
-    
+    public static PlayerMapController playerMapController;
+    public static GameObject console;
+
+
     public static GameObject canvasTutorial;
     public static GameObject canvasDeath;
     public static GameObject canvasWin;
@@ -43,6 +46,10 @@ public class GameManager : MonoBehaviour {
         playerTrans = GameObject.Find("Player").transform;
         playerUse = GameObject.Find("Player/PlayerCameraRoot/MainCamera").GetComponent<PlayerUse>();
         playerShakescreen = GameObject.Find("Player/PlayerCameraRoot/MainCamera").GetComponent<PlayerShakeScreen>();
+        playerMapController = GameObject.Find("Entities/Console/PlayerMap").GetComponent<PlayerMapController>();
+        console = GameObject.Find("Entities/Console");
+        console.SetActive(false);
+
         canvasTutorial = GameObject.Find("Canvas/Tutorial");
         canvasTutorial.SetActive(false);
         canvasDeath = GameObject.Find("Canvas/Death");
